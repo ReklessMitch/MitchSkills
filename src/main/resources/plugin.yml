@@ -1,0 +1,12 @@
+name: MitchSkills
+version: '${project.version}'
+main: me.reklessmitch.mitchskills.SkillApplication
+api-version: 1.19
+softdepend: [ PlaceholderAPI,]
+depend: [ MassiveCore ]
+authors: [ ReklessMitch ]
+description: Mitch's Skills Plugin
+permissions:
+  mitchskills.skill: {description: view skills, default: false}
+  mitchskills.skill.set: {description: set skills, default: false}
+  mitchskills.skill.gui: {description: skills gui, default: false}
